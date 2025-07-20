@@ -1,0 +1,18 @@
+@import './normalize.css';
+@import 'tailwindcss';
+
+body {
+  @apply font-sans;
+}
+
+:root {
+  --font-sans: 'Outfit', ui-sans-serif, system-ui, sans-serif;
+  --font-mono:
+    ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New',
+    monospace;
+}
+
+
+.form-text {
+  @apply text-xl leading-7 font-[900] mb-4 sm:text-3xl sm:leading-10 text-center;
+}
