@@ -49,7 +49,7 @@ export const GetUserInfoForm = () => {
             )}
           />
         </div>
-        <div className="display flex grow-1 items-center justify-center">{step}</div>
+        <div className="display flex items-center grow justify-center">{step}</div>
       </form>
     </FormProvider>
   );

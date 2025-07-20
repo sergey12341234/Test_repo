@@ -22,7 +22,7 @@ const PreviewImageStep: FC = () => {
   }, []);
 
   return (
-    <div className="text-center w-full flex flex-col items-center gap-6">
+    <div className="text-center w-full flex flex-col h-[90%] items-center gap-6">
       {imageUrl ? <img src={Congrats} alt="Uploaded preview" /> : null}
       <h2 className="form-text">
         {imageUrl ? 'Image uploaded successfully' : 'No image uploaded'}
@@ -33,7 +33,7 @@ const PreviewImageStep: FC = () => {
         <img
           src={imageUrl}
           alt="Uploaded preview"
-          className="rounded-xl max-w-[90%] max-h-[500px] object-contain"
+          className="rounded-xl max-w-[90%] max-h-[300px] object-contain"
         />
       ) : (
         <div className="flex flex-col items-center justify-center rounded-xl p-12 bg-gray-50 text-gray-500 max-w-[90%]">
